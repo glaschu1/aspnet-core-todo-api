@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 public class ToDoController : Controller
 {
     private static IToDoRepository _toDoRepository = new InMemoryToDoRepository();
+    //private IToDoRepository _toDoRepository = new SqlServerToDoRepository();
 
     [HttpGet("/api/todo")]
     public List<ToDoItem> GetAll()
