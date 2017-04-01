@@ -4,8 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace aspnet_core_todo_api.Controllers
-{
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
@@ -41,4 +39,3 @@ namespace aspnet_core_todo_api.Controllers
         {
         }
     }
-}
