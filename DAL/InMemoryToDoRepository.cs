@@ -12,7 +12,9 @@ public class InMemoryToDoRepository : IToDoRepository
 
         _toDoList.Add(new ToDoItem(1, "Learn .NET", true));
         _toDoList.Add(new ToDoItem(2, "Learn Java", false));
-        _toDoList.Add(new ToDoItem(3, "Learn JavaScript", true));
+        _toDoList.Add(new ToDoItem(3, "Learn JavaScript", false));
+        _toDoList.Add(new ToDoItem(4, "Learn Azure", true));
+        _toDoList.Add(new ToDoItem(5, "Go Home", true));
     }
     public void CreateToDoItem(ToDoItem toDoItem)
     {
